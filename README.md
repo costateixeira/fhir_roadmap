@@ -10,7 +10,8 @@ Objectivo:
 
 Notas:
 
-* A fonte dos dados pode ser um ficheiro num repositório,  por exemplo
+* usar apenas componentes open source, licenças apache ou MIT
+* A fonte dos dados deve ser um ficheiro num repositório,  por exemplo
 https://github.com/costateixeira/fhir_roadmap/blob/main/current_artifacts.json
 
 
