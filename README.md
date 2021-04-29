@@ -3,10 +3,9 @@
 Work in Progress
 
 Objectivo: 
-1 página com 2 tabs. 
-tab 1: Tabela com as publicações (colunas a decidir)
-
-tab2: visualização vis.js parecida com a que existe
+1 página com 2 tabs.   
+- tab 1: Tabela com as publicações (colunas a decidir)
+- tab2: visualização vis.js parecida com a que existe
 
 
 Notas:
