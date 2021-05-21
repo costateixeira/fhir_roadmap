@@ -1,6 +1,6 @@
 # Visualization and Data Project
 
-This project main objective is to make available a set of information regarding roadmap information.
+This project main objective is to make available a set of information regarding roadmap definition.
 
 ## Structure
 | Folder        | Description | 
