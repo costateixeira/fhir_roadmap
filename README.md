@@ -1,24 +1,35 @@
-# fhir_roadmap
+# Visualization and Data Project
 
-Work in Progress
+This project main objective is to make available a set of information regarding roadmap information.
 
-Objectivo: 
-1 página com 2 tabs.   
-- tab 1: Tabela com as publicações (colunas a decidir)
-- tab2: visualização vis.js parecida com a que existe
+## Structure
+| Folder        | Description | 
+| ------------- |:-------------:|
+| data      | Contains JSON files |
+| dist      | Stores the JS and CSS Files  |
+| pages | Contains the HTML files   |
+
+## Dependencies
+| Name|
+| ------------- |
+| visjs      | 
+| DataTables | 
+
+### Done
+
+* WebPage with two tabs
+* One Tab containing a table 
+* One Tab containing the VIS network
+* Table must support
+1. Sort
+2. Filter
+3. Load Data from URL/File JSON
+4. Multi Select Filter
 
 
-Notas:
+### To Do
 
-* usar apenas componentes open source, licenças apache ou MIT
-* A fonte dos dados deve ser um ficheiro num repositório,  por exemplo
-https://github.com/costateixeira/fhir_roadmap/blob/main/current_artifacts.json
-
-
-Falta:
-
-
-1. Acrescentar uma tabela capaz de:
-1.1. sort, filter
-1.2. load data from url
-1.3. multi-select filter (like http://www.tablefilter.com/using-bootstrap.html : in the first row we can see many values)
+1. Populate description information in Home Page
+2. Fix Render of MultiSelect Box in Table
+3. Fix Render of DropDown filter edges when scrolling
+4. Give a more readable aspect to visualization.js
