@@ -1,7 +1,9 @@
 $(document).ready( function () {
   
     var table = $('#example').DataTable({
-                "ajax": "../data/data.json",
+            lengthMenu: [ [20, 50, 100, -1], [20, 50, 100, "All"] ],
+            pageLength: 50
+            "ajax": "../data/data.json",
                 "columns": [
                     { "data": "id" },
                     { "data": "topic" },
