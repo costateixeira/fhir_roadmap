@@ -3,18 +3,23 @@ $(document).ready( function () {
     var table = $('#example').DataTable({
             lengthMenu: [ [20, 50, 100, -1], [20, 50, 100, "All"] ],
             pageLength: 50,
+            orderCellsTop: true,
+            fixedHeader: true,
             "ajax": "../data/data.json",
                 "columns": [
                     { "data": "id" },
                     { "data": "topic" },
+                    { "data": "subtopic" },
                     { "data": "type" },
                     { "data": "name" },
                     { "data": "status" },
-                    { "data": "date_pc" },
+                    { "data": "date_started" },
+                    { "data": "date_published" },
+                    { "data": "date_reviewed" },
                     { "data": "maturity" },
                     { "data": "legal" },
-                    { "data": "published" }
-                ],
+                    { "data": "version" }
+                  ],
               initComplete: function () {
               count = 0;
               this.api().columns().every( function () {
